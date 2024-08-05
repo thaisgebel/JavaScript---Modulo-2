@@ -253,3 +253,21 @@ let teenAger = age.some(function (adolescent) {
   return adolescent >= 13 && adolescent <= 17;
 });
 console.log(teenAger);
+
+/*EJERCICIO DESTRUCTURING*/
+
+let family = [
+  "Hermano",
+  "Papa",
+  "Hijo",
+  "Hermana",
+  "Mama",
+  "Sobrino",
+  "Tio",
+  "Tia",
+  "Abuelo",
+  "Abuela",
+];
+
+let [Hermano, Papa, , , Mama] = family;
+console.log(Hermano + Papa + Mama);
