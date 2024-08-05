@@ -270,4 +270,4 @@ let family = [
 ];
 
 let [Hermano, Papa, , , Mama] = family;
-console.log(Hermano + Papa + Mama);
+console.log(Hermano + Papa + Mama, Sobrino);
